@@ -1,0 +1,147 @@
+
+:root {
+	--mainDark: #0e0e0f;
+	--mainLemon: rgb(87, 136, 8);
+	--mainWhite: #fff;
+	--mainOrange: #d33114;
+}
+
+/* Master Styles */
+body {
+	margin: 0px;
+	padding: 0px;
+	line-height: 2;
+	box-sizing: border-box;
+}
+
+
+/* Landing page */
+.landing {
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+.landing-content {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+}
+
+
+/* Landing Text */
+p {
+	color: var(--mainDark);
+}
+p:hover {
+	color: var(--mainLemon);
+}
+.pa3 {
+	text-align: center;
+}
+.pa3 p {
+	font-size: 50px;
+	font-weight: 900;
+	padding: 50px;
+	padding-top: 190px;
+	margin: 0;
+}
+
+
+/* Navbar */
+.brand {
+	/* font-weight: bold; */
+	font-family: Arial, Helvetica, sans-serif;
+	color: var(--mainDark);
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 900;
+}
+.nav-item {
+	padding-left: 30px;
+}
+.nav-item:hover {
+	color: var(--mainLemon);
+}
+.navbar {
+	background: pink;
+}
+
+
+/* Button */
+.welcome-button {
+	cursor: pointer;
+	background-color: black;
+	color: white;
+	border-width: 0;
+	padding: 10px;
+}
+.welcome-button:hover {
+	background-color: var(--mainLemon);
+	color: white;
+}
+
+
+/* Order */
+.ordercon {
+	align-items: center;
+	justify-content: center;
+	padding: 100px;
+}
+
+
+/* Contact */
+.contactcon {
+	align-items: center;
+	justify-content: center;
+	padding: 100px;
+}
+
+
+/* Delivery Policy */
+.content {
+  min-height: calc(50vh - 66px);
+  background-color: var(--mainWhite);
+  align-items: center;
+  justify-content: center;
+}
+.pol{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 3ch;
+  padding-bottom: 2rem;
+  margin-top: 15%;
+}
+.main {
+  text-align: center;
+} 
+
+
+/* Service */
+.service-con {
+  min-height: calc(50vh - 66px);
+  background-color: var(--mainWhite);
+  align-items: center;
+  justify-content: center;
+  margin-top: 15%;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+
+/* Footer */
+.footer-bottom {
+	text-align: center;
+}
+
+@media (min-width: 650px) {
+	.landing {
+		background-position: center center;
+	}
+	.landing-content {
+		align-items: center;
+		justify-content: center;
+	}
+}
+
