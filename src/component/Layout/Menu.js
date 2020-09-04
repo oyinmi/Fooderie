@@ -89,8 +89,7 @@ const MenuContainer = styled.menu`
     .menu-middle {
         background: var(--mainWhite);
         color: var(--mainDark);
-        padding-left: 0rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
     }
 `;    
