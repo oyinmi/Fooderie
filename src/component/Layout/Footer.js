@@ -48,7 +48,7 @@ const Footer = () => {
                     {/* Footer Bottom */}
                     <div className="footer-bottom">
                         <p className="text-xs-center">
-                            &copy;{new Date().getFullYear()} FOODI3 App -All Right Reserved
+                            &copy;{new Date().getFullYear()} FOODERIE App -All Right Reserved
                         </p>
                     </div>
                 </div>
