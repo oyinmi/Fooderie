@@ -12,7 +12,7 @@ const Footer = () => {
                     
                         {/* column 1 */}
                         <div className="col-md-3 col-sm-6">
-                            <h5>FOODI3</h5>
+                            <h5>FOODERIE</h5>
                             <ul className="list-unstyled">
                                 <li>
                                     <a href="/blog">Blog</a>
