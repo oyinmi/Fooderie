@@ -31,9 +31,9 @@ class Nbar extends Component {
 						<Nav className="ml-auto pr4">
 
 							<Nav className="nav-item">
-								<Nav.Link href="/menu" style={{ color: '#000000' }}>Menu</Nav.Link>
-								<Nav.Link href="/service" style={{ color: '#000000' }}>Service</Nav.Link>
-								<Nav.Link href="/blog" style={{ color: '#000000' }}>Blog</Nav.Link>
+								<Nav.Link href="/menu" style={{ color: '#000000' }}> Menu </Nav.Link>
+								<Nav.Link href="/service" style={{ color: '#000000' }}> Service </Nav.Link>
+								<Nav.Link href="/blog" style={{ color: '#000000' }}> Blog </Nav.Link>
 							</Nav>
 								
 					    </Nav>
