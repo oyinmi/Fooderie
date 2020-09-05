@@ -4,6 +4,8 @@
 # Technologies Used
 React.js
 
+React Hook
+
 Tachyons
 
 React Bootstrap
