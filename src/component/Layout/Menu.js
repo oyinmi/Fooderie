@@ -20,7 +20,7 @@ const Menu = () => {
                     <div className='row '>
 
                         {/* Column 1 */}
-                        <div className="col-md-4 col-sm-12">
+                        <div className="col-md-4 col-sm-12 pb4">
                             <Card bg="white" text="white" className="card text-center shadow-5">
                                 <div>
                                     <img src={img} alt="Oops" />
@@ -39,7 +39,7 @@ const Menu = () => {
                         </div>
 
                         {/* Column 2 */}
-                        <div className="col-md-4 col-sm-12" >
+                        <div className="col-md-4 col-sm-12 pb4" >
                             <Card bg="white" text="white" className="card text-center shadow-5">
                                 <div>
                                     <img src={img2} alt="Oops" />
