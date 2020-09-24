@@ -17,7 +17,7 @@ const Menu = () => {
                 
                     <h1 className="tc underline pb3"> Our Menu </h1>
 
-                    <div className='row '>
+                    <div className='row pr4'>
 
                         {/* Column 1 */}
                         <div className="col-md-4 col-sm-12 pb4">
