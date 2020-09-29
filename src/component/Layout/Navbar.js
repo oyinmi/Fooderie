@@ -22,7 +22,7 @@ class Nbar extends Component {
 	render() {
 		return (
 			<div >
-				<Navbar fixed="top" collapseOnSelect expand="md" bg="transparent b" variant="dark" position="fixed">
+				<Navbar collapseOnSelect expand="md" bg="transparent b" variant="dark" position="fixed">
 					<Navbar.Brand className='brand pl4' href="/" style={{ color: '#000000', fontSize: 'x-large' }}>Fooderie</Navbar.Brand>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
