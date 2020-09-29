@@ -60,6 +60,7 @@ p:hover {
 }
 .nav-item {
 	padding-left: 30px;
+	align-items: center;
 }
 .nav-item:hover {
 	color: var(--mainLemon);
