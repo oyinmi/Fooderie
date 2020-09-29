@@ -90,6 +90,6 @@ const MenuContainer = styled.menu`
         background: var(--mainWhite);
         color: var(--mainDark);
         padding-top: 1rem;
-        padding-bottom: 3rem;
+        padding-bottom: 2rem;
     }
 `;    
