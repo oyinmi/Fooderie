@@ -6,6 +6,7 @@
 	--mainOrange: #d33114;
 }
 
+
 /* Master Styles */
 body {
 	margin: 0px;
@@ -22,6 +23,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: top center;
 }
+
 .landing-content {
 	height: 100%;
 	display: flex;
@@ -34,12 +36,15 @@ body {
 p {
 	color: var(--mainDark);
 }
+
 p:hover {
 	color: var(--mainLemon);
 }
+
 .pa3 {
 	text-align: center;
 }
+
 .pa3 p {
 	font-size: 50px;
 	font-weight: 900;
@@ -58,13 +63,16 @@ p:hover {
 	font-size: 20px;
 	font-weight: 900;
 }
+
 .nav-item {
 	padding-left: 30px;
 	align-items: center;
 }
+
 .nav-item:hover {
 	color: var(--mainLemon);
 }
+
 .navbar {
 	background: pink;
 }
@@ -78,6 +86,7 @@ p:hover {
 	border-width: 0;
 	padding: 10px;
 }
+
 .welcome-button:hover {
 	background-color: var(--mainLemon);
 	color: white;
@@ -107,6 +116,7 @@ p:hover {
   align-items: center;
   justify-content: center;
 }
+
 .pol{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
@@ -114,6 +124,7 @@ p:hover {
   padding-bottom: 2rem;
   margin-top: 15%;
 }
+
 .main {
   text-align: center;
 } 
@@ -140,6 +151,7 @@ p:hover {
 	.landing {
 		background-position: center center;
 	}
+	
 	.landing-content {
 		align-items: center;
 		justify-content: center;
